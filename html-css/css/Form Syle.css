@@ -1,0 +1,36 @@
+
+* {
+	box-sizing: border-box
+}
+
+table {
+	background: #ffffff;
+	width: 100%;
+}
+
+table tr {
+	border: 1px solid #757575;
+	padding: 1rem;
+}
+
+table td {
+	padding: 1rem;
+}
+
+table th {
+	background-color: #234589;
+	color: #FFFF;
+	font-weight: bold;
+	font-size: 1.0rem;
+	text-align: left;
+}
+
+.table-container {
+	font-size: 1.0;
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+.table-container tfoot {
+	font-weight: bolder;
+}

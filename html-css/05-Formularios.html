@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>FORMULARIOS</title>
+		<meta charset="UTF-8">
+		<meta name="viewport"content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	</head>
+	<body>
+
+			<header>
+				<h2>Fale Conosco</h2>
+			</header>
+
+			<section>
+
+				<nav>
+					<ul>
+						<li><a href="#home">Inicio</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</nav>
+
+				<article>
+					
+					<h1>Contato</h1>
+					<p>Preencha os campos abaixo</p>
+
+					<form method="post">
+
+						<div>
+							<label for="nome">Nome</label><br>
+							<input type="text" name="nome" id="nome" placeholder="Digite Seu Nome Aqui">
+					    </div>
+
+					    <div>
+							<label for="email">E-mail</label><br>
+							<input type="email" name="email" id="email">
+						</div>
+
+						<div>
+							<p>
+								<label>Quais Linguagens você prefere?</label>
+								<input type="radio" name="Linguagens"> HTML
+								<input type="radio" name="Linguagens"> CSS
+								<input type="radio" name="Linguagens"> Javascript
+							</p>
+
+						</div>
+
+						<div>
+							<p>
+								<label>Quais Linguagens você sabe?</label>
+								<input type="checkbox" name="Linguagens"> HTML
+								<input type="checkbox" name="Linguagens"> CSS
+								<input type="checkbox" name="Linguagens"> Javascript
+							</p>
+
+						</div>
+
+						<div>
+							<label>Qual é sua cor preferida?</label>
+							<select>
+								<option>Azul</option>
+								<option>Verde</option>
+								<option selected>Vermelho</option>
+							</select>
+						</div>
+
+						<div>	
+							<label for="mensagem">Mensagem</label><br>
+							<textarea name="mensagem" id="mensagem" rows="5" id="mensagem"></textarea>
+						</div>
+
+						<div>
+							<input type="submit">
+						</div>
+				</article>
+			</body>
